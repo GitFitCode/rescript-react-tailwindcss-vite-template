@@ -1,0 +1,30 @@
+{
+  "name": "rescript-react-tailwindcss-vite-template",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "rescript build -with-deps",
+    "build:production": "vite build",
+    "clean": "rescript clean -with-deps",
+    "serve": "vite serve",
+    "server": "vite",
+    "start": "cross-env BS_WATCH_CLEAR=true rescript build -w -with-deps"
+  },
+  "keywords": [
+    "ReScript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@rescript/react": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react-refresh": "latest",
+    "autoprefixer": "latest",
+    "rescript": "latest",
+    "cross-env": "latest",
+    "tailwindcss": "latest",
+    "vite": "latest"
+  }
+}
