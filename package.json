@@ -5,8 +5,7 @@
     "build": "rescript build -with-deps",
     "build:production": "vite build",
     "clean": "rescript clean -with-deps",
-    "serve": "vite serve",
-    "server": "vite",
+    "serve": "vite",
     "start": "cross-env BS_WATCH_CLEAR=true rescript build -w -with-deps"
   },
   "keywords": [

@@ -4,10 +4,10 @@ A starter template for ReScript, React, TailwindCSS and Vite.
 ## Run Project
 
 ```sh
-yarn install
-yarn start
+pnpm install
+pnpm start
 # in another tab
-yarn server # or yarn serve
+pnpm serve
 ```
 
 When both processes are running, open a browser at http://localhost:3000
@@ -15,9 +15,9 @@ When both processes are running, open a browser at http://localhost:3000
 ## Build for Production
 
 ```sh
-yarn clean
-yarn build
-yarn build:production
+pnpm clean
+pnpm build
+pnpm build:production
 ```
 
 ## Replace template placeholders in
@@ -27,4 +27,4 @@ yarn build:production
 4. `README.md`
 
 
-**NOTE**: This template uses `yarn`; it can be replaced by `npm`. Make sure to delete the `yarn.lock` file.
+**NOTE**: This template uses `pnpm`. More info [here](https://pnpm.io/). It can be replaced by `npm` or `yarn`; make sure to delete the `pnpm-lock.yaml` file.
