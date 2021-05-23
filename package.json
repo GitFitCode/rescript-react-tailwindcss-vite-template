@@ -6,7 +6,8 @@
     "build:production": "vite build",
     "clean": "rescript clean -with-deps",
     "serve": "vite",
-    "start": "cross-env BS_WATCH_CLEAR=true rescript build -w -with-deps"
+    "start": "cross-env BS_WATCH_CLEAR=true rescript build -w -with-deps",
+    "prepare": "husky install"
   },
   "keywords": [
     "ReScript"
@@ -19,10 +20,13 @@
     "react-dom": "latest"
   },
   "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
     "@vitejs/plugin-react-refresh": "latest",
     "autoprefixer": "latest",
     "rescript": "latest",
     "cross-env": "latest",
+    "husky": "latest",
     "tailwindcss": "latest",
     "vite": "latest"
   }

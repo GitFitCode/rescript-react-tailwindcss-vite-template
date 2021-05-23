@@ -10,7 +10,7 @@ pnpm start
 pnpm serve
 ```
 
-When both processes are running, open a browser at http://localhost:3000
+When both processes are running, open a browser at http://localhost:3000.
 
 ## Build for Production
 
@@ -27,4 +27,6 @@ pnpm build:production
 4. `README.md`
 
 
-**NOTE**: This template uses `pnpm`. More info [here](https://pnpm.io/). It can be replaced by `npm` or `yarn`; make sure to delete the `pnpm-lock.yaml` file.
+**NOTES**: 
+1. This template uses `pnpm`; more info [here](https://pnpm.io/). It can be replaced by `npm` or `yarn`; make sure to delete the `pnpm-lock.yaml` file.
+2. [commitlint/config-conventional](https://github.com/conventional-changelog/commitlint/tree/master/@commitlint/config-conventional) is being used for linting commit messages.
